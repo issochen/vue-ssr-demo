@@ -7,6 +7,16 @@
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'App',
+  metaInfo: {
+    title: '首页'
+  }
+}
+</script>
+
 <style lang="stylus">
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
