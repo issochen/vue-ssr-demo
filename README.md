@@ -17,8 +17,8 @@ npm run dev 即可
 ```
 
 ## 注意
-package.json中
 windows系统需将
+package.json中
 ```bash
 "build:os": "npm run build:server && mv dist/vue-ssr-server-bundle.json bundle && npm run build:client && mv bundle dist/vue-ssr-server-bundle.json"
 ```
