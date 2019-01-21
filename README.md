@@ -8,7 +8,7 @@ npm install
 npm run dev 即可
 ```
 ## 正式环境
-将vue.config.js里的下面代码注释后执行npm build:os || npm start即可
+将vue.config.js里的下面代码注释后执行npm run build:os || npm run start即可
 ```javascript
   publicPath: 'http://localhost:8080',  // 开发环境 映射 css js请求地址
   devServer: {
